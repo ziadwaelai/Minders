@@ -44,8 +44,8 @@ void main() {
         print("Wrong input try again");
       } else if (ser == 1) {
         clearConsole();
-        var name = stdin.readLineSync();
         print("Enter Member Name");
+        var name = stdin.readLineSync();
         searchByName(name!);
         if (!otherOperation()) {
           break;
